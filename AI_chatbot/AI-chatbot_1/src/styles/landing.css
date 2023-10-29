@@ -1,0 +1,76 @@
+
+.left--side
+{
+    background-color: rgba(156, 102, 155, 0.224);
+    color: rgb(181, 34, 181);
+    padding: 20% 0%;
+    font-size: 2rem;
+}
+
+.right--side{
+    background-color: #192655;
+    color: white;
+    padding: 20% 0%;
+    font-size: 1.5rem;
+}
+
+/* Navbar */
+.navbar{
+    color: rgb(181, 34, 181);
+}
+.navbar-brand{
+    font-weight: bold;
+}
+
+/* buttons */
+.btn{
+    font-size: 1rem;
+}
+
+.left--heading{
+    font-weight: bold;
+}
+
+.d-grid{
+    justify-content: center;
+}
+
+/* Dynamic text replacement */
+#chat-container {
+  /* background-color: #f3f3f3; */
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+#chat-text {
+  white-space: pre-wrap;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+#chat-cursor {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 10px;
+  height: 20px;
+  background-color: #000;
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { visibility: visible; }
+  50% { visibility: hidden; }
+}
+
+/* Home_R */
+/* @media screen and (max-width: 900px) { */
+  .home_r{
+    margin-top:55%;
+  }
+/* } */
